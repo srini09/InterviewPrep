@@ -1,0 +1,54 @@
+desc: (none)
+cmd: ./a.out
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=123325
+mem_heap_B=19
+mem_heap_extra_B=13
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=123368
+mem_heap_B=31
+mem_heap_extra_B=25
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=124304
+mem_heap_B=31
+mem_heap_extra_B=25
+mem_stacks_B=0
+heap_tree=peak
+n2: 31 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 19 0x8048464: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/a.out)
+ n0: 12 0x8048474: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/a.out)
+#-----------
+snapshot=4
+#-----------
+time=124304
+mem_heap_B=19
+mem_heap_extra_B=13
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=124343
+mem_heap_B=35
+mem_heap_extra_B=21
+mem_stacks_B=0
+heap_tree=empty

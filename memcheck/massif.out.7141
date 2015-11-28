@@ -1,0 +1,522 @@
+desc: --stacks=yes --time-unit=B
+cmd: ./mLarge
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=4148
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=580
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=9668
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1780
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=3
+#-----------
+time=15712
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1920
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=20400
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=2104
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=5
+#-----------
+time=27228
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1812
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=30568
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=2240
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=7
+#-----------
+time=35340
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1396
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=39012
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=692
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=44708
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1108
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=47952
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=912
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=54576
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1088
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=58976
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1312
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=65536
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1312
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=70048
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=73312
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=912
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=79080
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=936
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=85704
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1200
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=92848
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1312
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=96868
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=980
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=100944
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=912
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=21
+#-----------
+time=104952
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=912
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=110176
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=912
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=114240
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1312
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=120320
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1312
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=124340
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=980
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=128416
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=912
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=134588
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=980
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=138384
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1088
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=142348
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=980
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=148088
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1184
+heap_tree=detailed
+n0: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+#-----------
+snapshot=31
+#-----------
+time=151924
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1156
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=155700
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1148
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=159476
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=276
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=165248
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=1272
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=207008
+mem_heap_B=40960
+mem_heap_extra_B=8
+mem_stacks_B=656
+heap_tree=detailed
+n1: 40960 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 40960 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+#-----------
+snapshot=36
+#-----------
+time=207008
+mem_heap_B=40960
+mem_heap_extra_B=8
+mem_stacks_B=656
+heap_tree=detailed
+n1: 40960 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 40960 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+#-----------
+snapshot=37
+#-----------
+time=215376
+mem_heap_B=49152
+mem_heap_extra_B=16
+mem_stacks_B=688
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=220528
+mem_heap_B=52480
+mem_heap_extra_B=112
+mem_stacks_B=656
+heap_tree=detailed
+n4: 52480 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 40960 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n1: 8192 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+  n0: 8192 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 2816 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 512 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=39
+#-----------
+time=225328
+mem_heap_B=55552
+mem_heap_extra_B=208
+mem_stacks_B=656
+heap_tree=detailed
+n4: 55552 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 40960 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n1: 8192 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+  n0: 8192 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 5888 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 512 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=40
+#-----------
+time=230128
+mem_heap_B=58624
+mem_heap_extra_B=304
+mem_stacks_B=656
+heap_tree=detailed
+n4: 58624 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 40960 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 8960 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n1: 8192 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+  n0: 8192 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 512 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=41
+#-----------
+time=234928
+mem_heap_B=61696
+mem_heap_extra_B=400
+mem_stacks_B=656
+heap_tree=detailed
+n4: 61696 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 40960 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 12032 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n1: 8192 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+  n0: 8192 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 512 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=42
+#-----------
+time=239728
+mem_heap_B=64768
+mem_heap_extra_B=496
+mem_stacks_B=656
+heap_tree=detailed
+n4: 64768 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 40960 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 15104 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n1: 8192 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+  n0: 8192 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 512 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=43
+#-----------
+time=244528
+mem_heap_B=67840
+mem_heap_extra_B=592
+mem_stacks_B=656
+heap_tree=detailed
+n4: 67840 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 40960 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 18176 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n1: 8192 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+  n0: 8192 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 512 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=44
+#-----------
+time=250528
+mem_heap_B=71680
+mem_heap_extra_B=712
+mem_stacks_B=656
+heap_tree=detailed
+n4: 71680 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 40960 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 22016 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n1: 8192 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+  n0: 8192 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 512 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=45
+#-----------
+time=257968
+mem_heap_B=75264
+mem_heap_extra_B=824
+mem_stacks_B=936
+heap_tree=peak
+n4: 75264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 40960 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 25600 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n1: 8192 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+  n0: 8192 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 512 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=46
+#-----------
+time=264364
+mem_heap_B=75264
+mem_heap_extra_B=824
+mem_stacks_B=844
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=271400
+mem_heap_B=75264
+mem_heap_extra_B=824
+mem_stacks_B=344
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=278560
+mem_heap_B=75264
+mem_heap_extra_B=824
+mem_stacks_B=344
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=279044
+mem_heap_B=75264
+mem_heap_extra_B=824
+mem_stacks_B=332
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=279048
+mem_heap_B=75264
+mem_heap_extra_B=824
+mem_stacks_B=328
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=279052
+mem_heap_B=75264
+mem_heap_extra_B=824
+mem_stacks_B=324
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=279068
+mem_heap_B=75264
+mem_heap_extra_B=824
+mem_stacks_B=308
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=279072
+mem_heap_B=75264
+mem_heap_extra_B=824
+mem_stacks_B=304
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=279076
+mem_heap_B=75264
+mem_heap_extra_B=824
+mem_stacks_B=300
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=279080
+mem_heap_B=75264
+mem_heap_extra_B=824
+mem_stacks_B=296
+heap_tree=detailed
+n4: 75264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 40960 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 25600 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n1: 8192 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+  n0: 8192 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+ n0: 512 in 1 place, below massif's threshold (01.00%)
+#-----------
+snapshot=56
+#-----------
+time=279084
+mem_heap_B=75264
+mem_heap_extra_B=824
+mem_stacks_B=292
+heap_tree=empty

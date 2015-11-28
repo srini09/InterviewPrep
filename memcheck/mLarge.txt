@@ -1,0 +1,248 @@
+--------------------------------------------------------------------------------
+Command:            ./mLarge
+Massif arguments:   --stacks=yes --time-unit=B
+ms_print arguments: massif.out.7141
+--------------------------------------------------------------------------------
+
+
+    KB
+75.22^                                                                  ##    
+     |                                                                  # :::@
+     |                                                                @@# : :@
+     |                                                             @@@@ # : :@
+     |                                                            @@ @@ # : :@
+     |                                                           @@@ @@ # : :@
+     |                                                          @@@@ @@ # : :@
+     |                                                        @@@@@@ @@ # : :@
+     |                                                       :@ @@@@ @@ # : :@
+     |                                                       :@ @@@@ @@ # : :@
+     |                                                     @@:@ @@@@ @@ # : :@
+     |                                                     @ :@ @@@@ @@ # : :@
+     |                                                     @ :@ @@@@ @@ # : :@
+     |                                                     @ :@ @@@@ @@ # : :@
+     |                                                     @ :@ @@@@ @@ # : :@
+     |                                                     @ :@ @@@@ @@ # : :@
+     |                                                     @ :@ @@@@ @@ # : :@
+     |                                                     @ :@ @@@@ @@ # : :@
+     |                                                     @ :@ @@@@ @@ # : :@
+     |                                                     @ :@ @@@@ @@ # : :@
+   0 +----------------------------------------------------------------------->KB
+     0                                                                   272.5
+
+Number of snapshots: 57
+ Detailed snapshots: [2, 4, 6, 20, 30, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45 (peak), 55]
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  0              0                0                0             0            0
+  1          4,148              580                0             0          580
+  2          9,668            1,780                0             0        1,780
+00.00% (0B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  3         15,712            1,920                0             0        1,920
+  4         20,400            2,104                0             0        2,104
+00.00% (0B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  5         27,228            1,812                0             0        1,812
+  6         30,568            2,240                0             0        2,240
+00.00% (0B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  7         35,340            1,396                0             0        1,396
+  8         39,012              692                0             0          692
+  9         44,708            1,108                0             0        1,108
+ 10         47,952              912                0             0          912
+ 11         54,576            1,088                0             0        1,088
+ 12         58,976            1,312                0             0        1,312
+ 13         65,536            1,312                0             0        1,312
+ 14         70,048              936                0             0          936
+ 15         73,312              912                0             0          912
+ 16         79,080              936                0             0          936
+ 17         85,704            1,200                0             0        1,200
+ 18         92,848            1,312                0             0        1,312
+ 19         96,868              980                0             0          980
+ 20        100,944              912                0             0          912
+00.00% (0B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 21        104,952              912                0             0          912
+ 22        110,176              912                0             0          912
+ 23        114,240            1,312                0             0        1,312
+ 24        120,320            1,312                0             0        1,312
+ 25        124,340              980                0             0          980
+ 26        128,416              912                0             0          912
+ 27        134,588              980                0             0          980
+ 28        138,384            1,088                0             0        1,088
+ 29        142,348              980                0             0          980
+ 30        148,088            1,184                0             0        1,184
+00.00% (0B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 31        151,924            1,156                0             0        1,156
+ 32        155,700            1,148                0             0        1,148
+ 33        159,476              276                0             0          276
+ 34        165,248            1,272                0             0        1,272
+ 35        207,008           41,624           40,960             8          656
+98.40% (40,960B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->98.40% (40,960B) 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+  
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 36        207,008           41,624           40,960             8          656
+98.40% (40,960B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->98.40% (40,960B) 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+  
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 37        215,376           49,856           49,152            16          688
+ 38        220,528           53,248           52,480           112          656
+98.56% (52,480B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->76.92% (40,960B) 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->15.38% (8,192B) 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| ->15.38% (8,192B) 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+|   
+->05.29% (2,816B) 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->00.96% (512B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 39        225,328           56,416           55,552           208          656
+98.47% (55,552B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->72.60% (40,960B) 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->14.52% (8,192B) 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| ->14.52% (8,192B) 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+|   
+->10.44% (5,888B) 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->00.91% (512B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 40        230,128           59,584           58,624           304          656
+98.39% (58,624B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->68.74% (40,960B) 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->15.04% (8,960B) 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->13.75% (8,192B) 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| ->13.75% (8,192B) 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+|   
+->00.86% (512B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 41        234,928           62,752           61,696           400          656
+98.32% (61,696B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->65.27% (40,960B) 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->19.17% (12,032B) 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->13.05% (8,192B) 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| ->13.05% (8,192B) 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+|   
+->00.82% (512B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 42        239,728           65,920           64,768           496          656
+98.25% (64,768B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->62.14% (40,960B) 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->22.91% (15,104B) 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->12.43% (8,192B) 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| ->12.43% (8,192B) 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+|   
+->00.78% (512B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 43        244,528           69,088           67,840           592          656
+98.19% (67,840B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->59.29% (40,960B) 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->26.31% (18,176B) 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->11.86% (8,192B) 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| ->11.86% (8,192B) 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+|   
+->00.74% (512B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 44        250,528           73,048           71,680           712          656
+98.13% (71,680B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->56.07% (40,960B) 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->30.14% (22,016B) 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->11.21% (8,192B) 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| ->11.21% (8,192B) 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+|   
+->00.70% (512B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 45        257,968           77,024           75,264           824          936
+97.71% (75,264B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->53.18% (40,960B) 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->33.24% (25,600B) 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->10.64% (8,192B) 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| ->10.64% (8,192B) 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+|   
+->00.66% (512B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 46        264,364           76,932           75,264           824          844
+ 47        271,400           76,432           75,264           824          344
+ 48        278,560           76,432           75,264           824          344
+ 49        279,044           76,420           75,264           824          332
+ 50        279,048           76,416           75,264           824          328
+ 51        279,052           76,412           75,264           824          324
+ 52        279,068           76,396           75,264           824          308
+ 53        279,072           76,392           75,264           824          304
+ 54        279,076           76,388           75,264           824          300
+ 55        279,080           76,384           75,264           824          296
+98.53% (75,264B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->53.62% (40,960B) 0x80484D0: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->33.51% (25,600B) 0x80484F7: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| 
+->10.72% (8,192B) 0x8048497: f (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+| ->10.72% (8,192B) 0x80484DE: main (in /home/sai/Documents/myGitRepo/InterviewPrep/memcheck/mLarge)
+|   
+->00.67% (512B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(B)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 56        279,084           76,380           75,264           824          292
